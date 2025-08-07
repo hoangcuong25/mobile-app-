@@ -1,17 +1,2 @@
-
-# dependencies
-node_modules/
-
-
-
-
-# Metro
-.metro-health-check*
-
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
-
-# local env files
-.env*.local
+node_modules
+.env
