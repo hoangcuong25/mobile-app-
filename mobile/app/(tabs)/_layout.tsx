@@ -36,6 +36,7 @@ const TabsLayout = () => {
         name="search"
         options={{
           title: "",
+
           tabBarIcon: ({ color, size }) => <Feather name="search" size={size} color={color} />,
         }}
       />
@@ -43,6 +44,7 @@ const TabsLayout = () => {
         name="notifications"
         options={{
           title: "",
+
           tabBarIcon: ({ color, size }) => <Feather name="bell" size={size} color={color} />,
         }}
       />
@@ -50,6 +52,7 @@ const TabsLayout = () => {
         name="messages"
         options={{
           title: "",
+
           tabBarIcon: ({ color, size }) => <Feather name="mail" size={size} color={color} />,
         }}
       />
